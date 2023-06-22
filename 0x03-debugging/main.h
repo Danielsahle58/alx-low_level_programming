@@ -1,18 +1,8 @@
-#include "../holberton.h"
-#include <stdio.h>
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	char c;
-
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
-}
+#ifndef MAIN_H
+#define MAIN_H
+#include <studio.h>
+void positive_or_negative(int i);
+int largest_number(int a, int b, int c);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
+#endif /*MAIN_H */
