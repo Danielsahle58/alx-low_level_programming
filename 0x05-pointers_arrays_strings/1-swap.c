@@ -1,11 +1,11 @@
-#include <stdio.h">
+#include <stdio.h"i>
 
 /**
- *swap_int - Entry point
- *@a: pointer the integer we want to swap
- *@b: pointer the integer we want to swap
+ *swap_int - swaps the values of two intrgers.
+ *@a: the first integer to be swapped
+ *@b: thr second integer it ti be swapped
  *
- *Return: no return
+ *Return:  nothing
  */
 void swap_int(int *a, int *b)
 {
@@ -15,3 +15,4 @@ void swap_int(int *a, int *b)
 	*a = *b;
 	*b = z;
 }
+
