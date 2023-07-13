@@ -1,20 +1,16 @@
-#include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * malloc_checked - Entry point
- *@b: string we need to duplicate
- * Return: a pointer to the allocate memory
- */
+  * malloc_checked - allocates memory using malloc.
+  * @b: size of memory to be allocated.
+  *
+  * Return: pointer to allocated memory.
+  */
 void *malloc_checked(unsigned int b)
 {
-	void *p = NULL;
+	void *p = malloc(b);
 
-	p = malloc(b);
 	if (p == NULL)
-	{
 		exit(98);
-	}
+
 	return (p);
-}
+}}
